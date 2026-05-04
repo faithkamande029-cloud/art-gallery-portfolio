@@ -6,7 +6,7 @@ export default function SearchBar() {
       <input className="form-section"
        type="text" 
        placeholder='Search projects... '
-       omhange={(e) => setSearchTerm(e.target.value)}
+       onChange={(e) => setSearchTerm(e.target.value)}
       />
     </div>
   )
